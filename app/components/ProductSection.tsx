@@ -33,7 +33,7 @@ export default function ProductSection({
         return "bg-gray-200 text-gray-700";
 
       case "discount":
-        return "bg-[#FFB348] text-white";
+        return "bg-[#FFB348] text-gray-900 font-semibold";
 
       default:
         return "bg-brand text-white";
