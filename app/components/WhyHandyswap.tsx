@@ -1,4 +1,4 @@
-import { BadgeEuro, ShieldCheck, Headphones, RotateCcw } from "lucide-react";
+import { BadgeCheck, ShieldCheck, Headphones, RotateCcw } from "lucide-react";
 
 export default function WhyHandyswap() {
  const features = [
