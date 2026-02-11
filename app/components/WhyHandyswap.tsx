@@ -43,7 +43,7 @@ export default function WhyHandyswap() {
             <div key={index} className="text-center">
               
               {/* Icon */}
-              <div className="w-14 h-14 mx-auto mb-6 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center">
+              <div className="w-14 h-14 mx-auto mb-6 bg-brand/30 text-brand rounded-xl flex items-center justify-center">
                 ★
               </div>
 
