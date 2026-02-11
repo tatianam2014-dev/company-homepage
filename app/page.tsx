@@ -17,7 +17,7 @@ const recommendedProducts = [
     oldPrice: "$949.00",
      badge: {
     label: "Bestseller",
-    type: "bestseller"
+    type: "bestseller" as const
   },
   },
   {
@@ -29,7 +29,7 @@ const recommendedProducts = [
     oldPrice: "$899.00",
    badge: {
   label: "New",
-  type: "new"
+  type: "new" as const
 },
   },
   {
@@ -41,7 +41,7 @@ const recommendedProducts = [
     oldPrice: "$899.00",
     badge: {
   label: "New",
-  type: "new"
+  type: "new" as const
 },
   },
   {
@@ -53,7 +53,7 @@ const recommendedProducts = [
     oldPrice: "$1,099.00",
     badge: {
   label: "New",
-  type: "new"
+  type: "new" as const
 },
   },
 ];
@@ -68,7 +68,7 @@ const popularProducts = [
     oldPrice: "$1,449.00",
      badge: {
     label: "Bestseller",
-    type: "bestseller"
+    type: "bestseller" as const
   },
   },
   {
@@ -80,7 +80,7 @@ const popularProducts = [
     oldPrice: "$1,399.00",
     badge: {
   label: "-15%",
-  type: "discount"
+  type: "discount" as const
 },
   },
   {
@@ -92,7 +92,7 @@ const popularProducts = [
     oldPrice: "$849.00",
     badge: {
   label: "New",
-  type: "new"
+  type: "new" as const
 },
   },
   {
@@ -104,7 +104,7 @@ const popularProducts = [
     oldPrice: "$479.00",
    badge: {
   label: "New",
-  type: "new"
+  type: "new" as const
 },
   },
 ];
