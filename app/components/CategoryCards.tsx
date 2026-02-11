@@ -15,7 +15,7 @@ export default function CategoryCards() {
   ];
 
   return (
-    <div className="w-full py-16">
+    <div className="w-full py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-2 gap-8">
           {categories.map((category, index) => (
