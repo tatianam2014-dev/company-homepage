@@ -6,9 +6,12 @@ export default function Hero() {
       <div>
 
         {/* Top Badge */}
-        <div className="inline-flex items-center px-4 py-1.5 mb-6 rounded-full bg-brand-light text-brand text-xs font-medium tracking-wide">
-          🇩🇪 Official German Warranty & Fast Shipping
-        </div>
+<div className="mb-6">
+  <span className="inline-block bg-brand-light text-brand text-xs font-semibold uppercase tracking-wide px-4 py-1.5 rounded-full">
+    Certified quality from Germany
+  </span>
+</div>
+
 
         <h1 className="text-5xl font-bold leading-tight mb-6">
           New iPhone & Samsung.
