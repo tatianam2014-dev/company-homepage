@@ -39,24 +39,24 @@ export default function USPStrip() {
   ];
 
   return (
-    <div className="w-full bg-gray-50 py-12">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-4 gap-8">
-          {usps.map((usp, index) => (
-            <div key={index} className="flex flex-col items-center text-center">
-              <div className="text-gray-700 mb-3">
-                {usp.icon}
-              </div>
-              <h3 className="font-semibold text-gray-900 mb-1">
-                {usp.title}
-              </h3>
-              <p className="text-sm text-gray-500">
-                {usp.subtext}
-              </p>
+  <section className="bg-gray-50 py-16">
+    <div className="max-w-6xl mx-auto px-6">
+      <div className="grid grid-cols-4 gap-8">
+        {usps.map((usp, index) => (
+          <div key={index} className="flex flex-col items-center text-center">
+            <div className="text-gray-700 mb-3">
+              {usp.icon}
             </div>
-          ))}
-        </div>
+            <h3 className="font-semibold text-gray-900 mb-1">
+              {usp.title}
+            </h3>
+            <p className="text-sm text-gray-500">
+              {usp.subtext}
+            </p>
+          </div>
+        ))}
       </div>
     </div>
-  );
+  </section>
+);
 }
