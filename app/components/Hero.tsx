@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="text-5xl font-bold leading-tight mb-6">
           New iPhone & Samsung.
           <br />
-          <span className="text-blue-600">Smart Prices.</span>
+          <span className="text-brand">Smart Prices.</span>
           <br />
           German Warranty.
         </h1>
@@ -17,7 +17,7 @@ export default function Hero() {
         </p>
 
         <div className="flex gap-5">
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-full font-medium hover:bg-blue-700 transition">
+          <button className="bg-brand text-white px-8 py-4 rounded-full font-medium hover:bg-brand-hover transition">
             Shop iPhone
           </button>
 
