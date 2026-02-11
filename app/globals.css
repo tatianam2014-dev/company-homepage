@@ -8,6 +8,7 @@
 @theme inline {
   --color-brand: #4488FC;
   --color-brand-hover: #2C5EB4;
+  --color-brand-light: #EAF1FF;
   
   --color-background: var(--background);
   --color-foreground: var(--foreground);
