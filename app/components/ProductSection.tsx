@@ -27,7 +27,7 @@ export default function ProductSection({
           <h2 className="text-3xl font-bold">{title}</h2>
           <p className="text-gray-500 mt-2">{subtitle}</p>
         </div>
-        <a href="#" className="text-blue-600 font-medium hover:underline">
+        <a href="#" className="text-brand font-medium hover:underline">
           View all
         </a>
       </div>
@@ -40,7 +40,7 @@ export default function ProductSection({
             className="group bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition duration-300 relative"
           >
             {product.badge && (
-              <span className="absolute top-4 left-4 text-xs bg-blue-600 text-white px-3 py-1 rounded-full">
+              <span className="absolute top-4 left-4 text-xs bg-brand text-white px-3 py-1 rounded-full">
                 {product.badge}
               </span>
             )}
@@ -62,7 +62,7 @@ export default function ProductSection({
             </p>
 
             <div className="flex items-center gap-3">
-              <span className="text-blue-600 font-bold text-lg">
+              <span className="text-brand font-bold text-lg">
                 {product.price}
               </span>
               {product.oldPrice && (
