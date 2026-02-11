@@ -1,10 +1,16 @@
+import Image from "next/image";
+
 export default function Header() {
   return (
     <header className="border-b">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold text-blue-600">
-          Handyswap
-        </div>
+        <Image
+  src="/logo_large.svg"
+  alt="Handyswap logo"
+  width={140}
+  height={40}
+  priority
+/>
 
         <input
           type="text"
