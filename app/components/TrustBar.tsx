@@ -6,7 +6,7 @@ export default function TrustBar() {
 
           {/* Secure Payment */}
           <div className="text-center">
-            <p className="text-sm font-semibold text-gray-700 mb-4 uppercase tracking-wide">
+           className="text-xs font-medium text-gray-500 mb-3 uppercase tracking-wide"
               Secure payment
             </p>
             <div className="flex justify-center flex-wrap gap-4 text-sm text-gray-700">
@@ -19,7 +19,7 @@ export default function TrustBar() {
 
           {/* Shipping Partners */}
           <div className="text-center">
-            <p className="text-sm font-semibold text-gray-700 mb-4 uppercase tracking-wide">
+            className="text-xs font-medium text-gray-500 mb-3 uppercase tracking-wide"
               Shipping partners
             </p>
             <div className="flex justify-center gap-8 text-sm text-gray-700">
