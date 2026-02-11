@@ -10,9 +10,13 @@ export default function Footer() {
           {/* Brand Column */}
           <div>
             <div className="mb-6">
-              <div className="text-2xl font-bold text-blue-600">
-                handyswap
-              </div>
+              <Image
+  src="/logo_large.svg"
+  alt="Handyswap logo"
+  width={140}
+  height={40}
+  priority
+/>
             </div>
 
             <p className="text-sm text-gray-500 leading-relaxed mb-6 max-w-xs">
