@@ -1,49 +1,45 @@
 export default function CategoryCards() {
+  const categories = [
+    {
+      title: "iPhone",
+      description: "Discover the latest Apple models with official warranty.",
+      cta: "Shop iPhone →",
+      href: "/iphone"
+    },
+    {
+      title: "Samsung",
+      description: "Explore powerful Galaxy smartphones.",
+      cta: "Shop Samsung →",
+      href: "/samsung"
+    }
+  ];
+
   return (
-    <section className="max-w-6xl mx-auto px-6 py-20">
-      <div className="grid grid-cols-2 gap-10">
-
-        {/* iPhone Card */}
-        <a
-          href="#"
-          className="group bg-gray-50 rounded-3xl p-10 flex items-center justify-between transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
-        >
-          <div>
-            <h3 className="text-3xl font-bold mb-4">iPhone</h3>
-            <p className="text-gray-600 mb-6 max-w-sm">
-              Discover the latest Apple models with official German warranty.
-            </p>
-            <span className="text-blue-600 font-medium group-hover:underline">
-              Shop iPhone →
-            </span>
-          </div>
-
-          <div className="bg-gray-200 w-40 h-40 rounded-2xl flex items-center justify-center text-gray-400">
-            Image
-          </div>
-        </a>
-
-        {/* Samsung Card */}
-        <a
-          href="#"
-          className="group bg-gray-50 rounded-3xl p-10 flex items-center justify-between transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
-        >
-          <div>
-            <h3 className="text-3xl font-bold mb-4">Samsung</h3>
-            <p className="text-gray-600 mb-6 max-w-sm">
-              Explore powerful Galaxy smartphones with fast delivery in Germany.
-            </p>
-            <span className="text-blue-600 font-medium group-hover:underline">
-              Shop Samsung →
-            </span>
-          </div>
-
-          <div className="bg-gray-200 w-40 h-40 rounded-2xl flex items-center justify-center text-gray-400">
-            Image
-          </div>
-        </a>
-
+    <div className="w-full py-16">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="grid grid-cols-2 gap-8">
+          {categories.map((category, index) => (
+            <a
+              key={index}
+              href={category.href}
+              className="group bg-gray-50 rounded-lg p-8 flex items-center justify-between transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
+            >
+              <div className="flex-1">
+                <h2 className="text-3xl font-bold text-gray-900 mb-3">
+                  {category.title}
+                </h2>
+                <p className="text-gray-600 mb-4">
+                  {category.description}
+                </p>
+                <span className="text-blue-600 font-medium">
+                  {category.cta}
+                </span>
+              </div>
+              <div className="w-48 h-48 bg-gray-200 rounded-lg ml-8 flex-shrink-0"></div>
+            </a>
+          ))}
+        </div>
       </div>
-    </section>
+    </div>
   );
 }
