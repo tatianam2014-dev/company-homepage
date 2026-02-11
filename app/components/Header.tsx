@@ -38,7 +38,7 @@ export default function Header() {
   </svg>
 
   {/* Arrow button right */}
-  <button className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-brand flex items-center justify-center hover:bg-blue-700 transition">
+  <button className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-brand flex items-center justify-center hover:bg-brand-hover transition">
     <svg
       className="w-4 h-4 text-white"
       fill="none"
