@@ -37,7 +37,7 @@ export default function WhyHandyswap() {
           <h2 className="text-3xl font-bold mb-4">
             Why buy from Handyswap?
           </h2>
-          <p className="text-gray-500 max-w-2xl mx-auto">
+          <p className="text-red-500 max-w-2xl mx-auto">
             We make buying smartphones easy, safe and transparent. 
             Rely on our German premium service.
           </p>
