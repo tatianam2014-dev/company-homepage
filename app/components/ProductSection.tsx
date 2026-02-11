@@ -30,7 +30,7 @@ export default function ProductSection({
         return "bg-brand text-white";
 
       case "new":
-        return "bg-gray-100 text-gray-700";
+        return "bg-gray-300 text-gray-700";
 
       case "discount":
         return "bg-[#FFB348] text-white";
