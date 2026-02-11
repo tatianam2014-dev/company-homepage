@@ -43,15 +43,19 @@ export default function WhyHandyswap() {
           </p>
         </div>
 
-        {/* Features */}
-        <div className="grid grid-cols-4 gap-12">
-          {features.map((feature, index) => (
-            <div key={index} className="text-center">
-              
-              {/* Icon */}
-              <div className="w-14 h-14 mx-auto mb-6 bg-brand/10 text-brand rounded-xl flex items-center justify-center">
-                ★
-              </div>
+       {/* Features */}
+<div className="grid grid-cols-4 gap-12">
+  {features.map((feature, index) => {
+    const Icon = feature.icon;
+
+    return (
+      <div key={index} className="text-center">
+
+        {/* Icon */}
+        <div className="w-14 h-14 mx-auto mb-6 bg-brand/10 rounded-xl flex items-center justify-center">
+          <Icon className="w-6 h-6 text-brand" strokeWidth={2} />
+        </div>
+
 
               {/* Title */}
               <h3 className="font-semibold text-lg mb-3">
