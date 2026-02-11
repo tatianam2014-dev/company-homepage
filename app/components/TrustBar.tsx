@@ -9,12 +9,11 @@ export default function TrustBar() {
             <p className="text-xs text-gray-500 mb-3">
               Secure payment
             </p>
-            <div className="flex justify-center flex-wrap gap-6 text-sm text-gray-700">
+            <div className="flex justify-center flex-wrap gap-4 text-sm text-gray-700">
               <span>PayPal</span>
               <span>Visa</span>
               <span>Mastercard</span>
               <span>Apple Pay</span>
-              <span>Klarna</span>
             </div>
           </div>
 
