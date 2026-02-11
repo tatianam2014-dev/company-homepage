@@ -35,16 +35,15 @@ export default function TrustBar() {
               <div className="flex items-center gap-4">
 
                 {/* Left side */}
-                <div>
-                  <div className="flex items-baseline gap-1">
-                    <span className="text-xl font-semibold text-gray-900">
-                      4.85
-                    </span>
-                    <span className="text-xs text-gray-500">
-                      out of 5.00
-                    </span>
-                  </div>
-                </div>
+               <div>
+  <div className="text-xl font-semibold text-gray-900">
+    4.85
+  </div>
+  <div className="text-xs text-gray-500 leading-tight">
+    out of 5.00
+  </div>
+</div>
+
 
                 {/* Right side */}
                 <div>
