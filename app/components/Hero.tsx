@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-12 py-24 grid grid-cols-2 gap-16 items-center">
+    <section className="max-w-6xl mx-auto px-6 py-20 grid grid-cols-2 gap-16 items-center">
       
       {/* Left Content */}
       <div>
