@@ -3,6 +3,7 @@ import USPStrip from "./components/USPStrip";
 import CategoryCards from "./components/CategoryCards";
 import ProductSection from "./components/ProductSection";
 import WhyHandyswap from "./components/WhyHandyswap";
+import TrustBar from "./components/TrustBar";
 
 
 const recommendedProducts = [
@@ -103,7 +104,7 @@ export default function Home() {
       />
 
       <WhyHandyswap />
-
+      <TrustBar />
     </>
   );
 }
