@@ -99,7 +99,7 @@ export default function Header() {
         d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 5h12m-5-5v5m-4-5v5" />
     </svg>
     Cart
-    <span className="absolute -top-1 -right-3 bg-[#FFB348] text-white text-[9px] w-4 h-4 rounded-full flex items-center justify-center">
+    <span className="absolute -top-1 -right-3 bg-[#FFB348] text-gray-800 text-[9px] w-4 h-4 rounded-full flex items-center justify-center">
       2
     </span>
   </div>
