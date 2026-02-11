@@ -21,7 +21,8 @@ export default function Hero() {
             Shop iPhone
           </button>
 
-          <button className="border border-brand text-brand px-8 py-4 rounded-full font-medium hover:bg-brand text-white transition">
+          <button className="border-[1.6px] border-brand text-brand px-8 py-4 rounded-full font-medium hover:bg-brand hover:text-white 
+  transition-colors duration-200">
             Shop Samsung
           </button>
         </div>
