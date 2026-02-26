@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function Footer() {
   return (
@@ -10,13 +10,9 @@ export default function Footer() {
           {/* Brand Column */}
           <div>
             <div className="mb-6">
-              <Image
-  src="/logo_large.svg"
-  alt="Handyswap logo"
-  width={140}
-  height={40}
-  priority
-/>
+              <div className="text-xl font-semibold tracking-tight text-gray-900">
+  Logo
+</div>
             </div>
 
             <p className="text-sm text-gray-500 leading-relaxed mb-6 max-w-xs">
