@@ -2,7 +2,7 @@ import Hero from "./components/Hero";
 import USPStrip from "./components/USPStrip";
 import CategoryCards from "./components/CategoryCards";
 import ProductSection from "./components/ProductSection";
-import WhyHandyswap from "./components/WhyHandyswap";
+import WhyCompany from "./components/WhyCompany";
 import TrustBar from "./components/TrustBar";
 import Footer from "./components/Footer";
 
@@ -128,7 +128,7 @@ export default function Home() {
         products={popularProducts}
       />
 
-      <WhyHandyswap />
+      <WhyCompany />
       <TrustBar />
       <Footer />
     </>
