@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div>
             <div className="mb-6">
-              <div className="text-xl font-semibold tracking-tight text-gray-900">
+              <div className="text-3xl font-bold tracking-tight text-brand cursor-pointer select-none">
   Logo
 </div>
             </div>
