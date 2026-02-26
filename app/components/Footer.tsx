@@ -74,7 +74,7 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-gray-200 pt-6 text-sm text-gray-400">
-          © 2026 Handyswap GmbH. All rights reserved.
+          © 2026 Company Name GmbH. All rights reserved.
         </div>
 
       </div>
