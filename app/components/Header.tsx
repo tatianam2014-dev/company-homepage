@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 export default function Header() {
   return (
@@ -6,13 +6,9 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}
-        <Image
-          src="/logo_large.svg"
-          alt="Handyswap logo"
-          width={140}
-          height={40}
-          priority
-        />
+        <div className="text-xl font-semibold tracking-tight text-gray-900">
+  Logo
+</div>
 
         {/* Search */}
        <div className="relative w-1/2">
