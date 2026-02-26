@@ -29,7 +29,7 @@ export default function WhyHandyswap() {
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">
-            Why buy from Handyswap?
+            Why buy from [Company Name]?
           </h2>
           <p className="text-gray-500 max-w-2xl mx-auto">
             We make buying smartphones easy, safe and transparent. 
