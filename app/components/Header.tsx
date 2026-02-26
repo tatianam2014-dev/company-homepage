@@ -6,7 +6,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* Logo */}
-        <div className="text-xl font-semibold tracking-tight text-gray-900">
+        <div className="text-3xl font-bold tracking-tight text-brand cursor-pointer select-none">
   Logo
 </div>
 
